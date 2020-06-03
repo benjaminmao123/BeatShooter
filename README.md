@@ -2,8 +2,6 @@
  
 BeatShooter is a 3D osu-inspired game developed in Unity. It is a rhythm game that where the player needs to hit with the correct timing to the music. It supports VR but the player can also opt to use the keyboard and mouse.
 
-# CS 135 Final Project Report
-
 ## Abstract
 
 For our project we have created a rhythm shooter game. In the game, the player is placed into a room where he/she has to shoot colored tiles while keeping up with the rhythm of the song. If the player misses, he has to dodge an incoming projectile. This is a unique experience because it allows the player to use hearing, hand-eye coordination and movement in order to pass a beat map. A laser pointer is tied to the user’s hand which triggers a hitsound when the user clicks on a colored tile. 
