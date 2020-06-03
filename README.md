@@ -2,13 +2,13 @@
  
 BeatShooter is a 3D osu-inspired game developed in Unity. It is a rhythm game that where the player needs to hit with the correct timing to the music. It supports VR but the player can also opt to use the keyboard and mouse.
 
-## CS 135 Final Project Report
+# CS 135 Final Project Report
 
-# Abstract
+## Abstract
 
 For our project we have created a rhythm shooter game. In the game, the player is placed into a room where he/she has to shoot colored tiles while keeping up with the rhythm of the song. If the player misses, he has to dodge an incoming projectile. This is a unique experience because it allows the player to use hearing, hand-eye coordination and movement in order to pass a beat map. A laser pointer is tied to the user’s hand which triggers a hitsound when the user clicks on a colored tile. 
 
-# Introduction
+## Introduction
  
 Beat shooter is a rhythm shooter game where a player is placed into a room where he/she has to shoot colored tiles to the rhythm of the song. There will be a green outline on the current tile the player must shoot. Shooting a tile will result in 2 points if the tile is blue and 1 point if the tile is red. If the player does not hit the tile after a certain time, it will count as a miss and a projectile will come from that tile which the player must dodge in order to not lose health. The player loses the level if his/her health is reduced to 0. 
 
@@ -16,13 +16,13 @@ This project is interesting because it challenges the player’s senses and mind
 
 VR makes this game more interesting because it allows the user to interact with the different components of the game in a more realistic manner. Instead of using a mouse and keyboard for aim and movement, a player uses his/her body creating a more immersive experience. This game has the potential to become very challenging just like other rhythm games.  Having players play using their hands and body as opposed to mouse and keyboard can also prove to be challenging for many players who are used to playing games with the latter. 
 
-# Related Works
+## Related Works
 
 Our game is a VR rhythm game. The popular games of this type are: Beat Saber, by Beat Games, Synth Riders, by Kluge Interactive, Audioshield, by Dylan Fitterer, et cetera. Though these games and ours are fall into the same category, our game is different from them. 
 
 In Beat Saber, players only need to pay attention to the direction marks on the cubes, and when the cube comes close, the player uses the virtual sword to cut the cubes. Our game, by contrast, needs more ear-eye-hand coordination. Players need to listen to the music carefully to follow the rhythm while looking at the color of cubes, only shoot during a certain interval will be recognized as valid. We have cubes on three walls, which are in three different directions: left, front and right. Cube can appear on any one, players need to focus and respond quickly by turning and aiming at the correct one. However, there are some disadvantages when compared to that famous game. The Beat Saber has higher quality of special effects and the music is more compatible to the video. Also the Beat Saber uses both hands while our game only uses only one, which causes an imbalance of force using. 
 
-# Design
+## Design
 
 For our design, we created a main menu, a game scene, and a post game scene. In our main menu scene, we have a play button and a quit button. The play button brings the user into the next menu which allows them to select a song. The quit button just quits the game.
 In the select song menu, the player can preview a song or select a song which will then move them into the next scene, the game scene. 
@@ -38,7 +38,7 @@ Our game conforms to the Oculus Best Practices Guide in that we had a stable UI.
 
 Our game would perform the best for songs that are about a minute to a minute and a half long. These songs are short and concise so they don’t force the player to keep aiming at the tiles. Our game would perform the worst if the song went on for too long. This is because it requires the player to concentrate and keep their arm up to aim at the tiles. This may in turn cause “gorilla arm” which will make the player’s arm very tired as they can’t rest their arm or else they risk losing points. In addition, another issue we did not get around to fixing was the jitteriness of the oculus controller. We did not smooth the input due to time constraints which made it feel slightly awkward when aiming at the tiles.
 
-# Implementation
+## Implementation
 
 There are several important parts of this project. 
 
@@ -50,7 +50,7 @@ Styling: When the cube is good for shooting, green outline lights up around the 
 
 Audio and Sound: Unity has its audio manager in UnityEngine.Audio, we use it to handle the song previewing and audio playing. The sound effect of hit, missing are different and are triggered with GameEvent.
 
-# Lessons Learned
+## Lessons Learned
 
 In this project we learned many different things. We learned that the oculus controllers need to be turned on when you start the game otherwise the game will not receive its inputs. We learned that getting timings for a rhythm game is very challenging and to speed up the process of finishing the game, we had to use the time stamps of when to hit the tile from a different game (osu). 
 
